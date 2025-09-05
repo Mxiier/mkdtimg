@@ -1,6 +1,6 @@
-CC = clang
-CXX = clang++
-STRIP = llvm-strip
+CC = gcc
+CXX = g++
+STRIP = strip
 SHELL = bash
 
 CFLAGS = -Wall -Werror -Wno-char-subscripts
@@ -35,3 +35,4 @@ mkdtimg: $(MKDTIMG_OBJ) dtc-aosp/libfdt/libfdt.a
 clean:
 	@rm -rf obj mkdtimg
 	@$(MAKE) -C dtc-aosp clean
+
