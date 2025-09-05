@@ -45,7 +45,13 @@ use help:
       -d, --dtb-dir            The path to load dtb files.
                                Default is load from the current path.
 ```
+# How to Build
 
-
-## Special Thanks
-[url]https://github.com/AzukiAtsui
+## Clone this repositories
+```
+git clone https://github.com/Mxiier/mkdtimg.git
+```
+## Compile 
+```
+make
+```
