@@ -1,6 +1,7 @@
 # create dtb.img/dtbo.img for AOSP
 This Tool for create dtb.img and dtbo.img image files.
-use help:
+
+# Help Info:
 ```
 ./mkdtimg <command>
 
